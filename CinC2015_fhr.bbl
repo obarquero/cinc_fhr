@@ -1,0 +1,124 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem{complearn}
+Cilibrasi R, Cruz AL, de~Rooij S, Keijzer M.
+\newblock Comp{L}earn.
+\newblock \url{http://www.complearn.org}, 2008.
+
+\bibitem{Signorini:2003ee}
+Signorini MG, Magenes G, Cerutti S, Arduini D.
+\newblock {Linear and nonlinear parameters for the analysis of fetal heart rate
+  signal from cardiotocographic recordings.}
+\newblock IEEE Trans Biomed Eng March 2003;\hspace{0pt}50(3):365--74.
+\newblock ISSN 0018-9294.
+
+\bibitem{vanLaar:2009dj}
+van Laar JOEH, Peters CHL, Vullings R, Houterman S, Oei SG.
+\newblock {Power spectrum analysis of fetal heart rate variability at near term
+  and post term gestation during active sleep and quiet sleep.}
+\newblock Early Hum Dev December 2009;\hspace{0pt}85(12):795--8.
+\newblock ISSN 1872-6232.
+
+\bibitem{Pincus1991}
+Pincus SM.
+\newblock {Approximate entropy as a measure of system complexity.}
+\newblock Proc Natl Acad Sci USA March 1991;\hspace{0pt}88(6):2297--301.
+\newblock ISSN 0027-8424.
+
+\bibitem{Richman2000}
+Richman JS, Moorman JR.
+\newblock {Physiological time-series analysis using approximate entropy and
+  sample entropy}.
+\newblock Am J Physiol Hear Circ Physiol June
+  2000;\hspace{0pt}278(6):H2039--2049.
+
+\bibitem{Ayres-de-Campos2010a}
+Ayres-de Campos D, Bernardes Ja.
+\newblock {Twenty-five years after the FIGO guidelines for the use of fetal
+  monitoring: time for a simplified approach?}
+\newblock Int J Gynaecol Obstet July 2010;\hspace{0pt}110(1):1--6.
+\newblock ISSN 1879-3479.
+
+\bibitem{RajendraAcharya2006}
+{Rajendra Acharya} U, {Paul Joseph} K, Kannathal N, Lim CM, Suri JS.
+\newblock {Heart rate variability: a review.}
+\newblock Med Biol Eng Comput December 2006;\hspace{0pt}44(12):1031--51.
+\newblock ISSN 0140-0118.
+
+\bibitem{Goldberger1987}
+Goldberger AL, West BJ.
+\newblock {Fractals in physiology and medicine.}
+\newblock Yale J Biol Med 1987;\hspace{0pt}60(5):421--35.
+\newblock ISSN 0044-0086.
+
+\bibitem{AMERWAHLIN2001}
+Amer-Wahlin I, Hellsten C, Noren H, Hagberg H, Herbst A, Kjellmer I, Lilja H,
+  Lindoff C, Mansson M, Martensson L.
+\newblock {Cardiotocography only versus cardiotocography plus ST analysis of
+  fetal electrocardiogram for intrapartum fetal monitoring: a Swedish
+  randomised controlled trial}.
+\newblock Lancet August 2001;\hspace{0pt}358(9281):534--538.
+\newblock ISSN 01406736.
+
+\bibitem{Ayres-de-Campos2010}
+Ayres-de Campos D, Ugwumadu A, Banfield P, Lynch P, Amin P, Horwell D, Costa A,
+  Santos C, Bernardes Ja, Rosen K.
+\newblock {A randomised clinical trial of intrapartum fetal monitoring with
+  computer analysis and alerts versus previously available monitoring.}
+\newblock BMC Pregnancy Childbirth January 2010;\hspace{0pt}10:71.
+\newblock ISSN 1471-2393.
+
+\bibitem{Warrick2010}
+Warrick PA, Hamilton EF, Precup D, Kearney RE.
+\newblock {Classification of normal and hypoxic fetuses from systems modeling
+  of intrapartum cardiotocography.}
+\newblock IEEE Trans Biomed Eng April 2010;\hspace{0pt}57(4):771--9.
+\newblock ISSN 1558-2531.
+
+\bibitem{Dong2014}
+Dong S, Boashash B, Azemi G, Lingwood BE, Colditz PB.
+\newblock {Automated detection of perinatal hypoxia using time-frequency-based
+  heart rate variability features.}
+\newblock Med Biol Eng Comput February 2014;\hspace{0pt}52(2):183--91.
+\newblock ISSN 1741-0444.
+
+\bibitem{Yang1998}
+Yang YX, Xie BS, Zhou ZX, Liu JN, Xue YY, Lv GL.
+\newblock {Computer analysis system of blood oxygen saturation in an animal
+  hypoxia model}.
+\newblock Med Biol Eng Comput May 1998;\hspace{0pt}36(3):355--358.
+\newblock ISSN 0140-0118.
+
+\bibitem{Siristatidis2004}
+Siristatidis C, Salamalekis E, Kassanos D, Loghis C, Creatsas G.
+\newblock {Evaluation of fetal intrapartum hypoxia by middle cerebral and
+  umbilical artery Doppler velocimetry with simultaneous cardiotocography and
+  pulse oximetry.}
+\newblock Arch Gynecol Obstet December 2004;\hspace{0pt}270(4):265--70.
+\newblock ISSN 0932-0067.
+
+\bibitem{Mori2014}
+Mori A, Iwashita M, Takeda Y.
+\newblock {Haemodynamic changes in IUGR fetus with chronic hypoxia evaluated by
+  fetal heart-rate monitoring and Doppler measurement of blood flow velocity}.
+\newblock Med Biol Eng Comput May 2014;\hspace{0pt}31(S1):S49--S58.
+\newblock ISSN 0140-0118.
+
+\bibitem{Tichauer2009}
+Tichauer KM, Wong DYL, Hadway JA, Rylett RJ, Lee TY, {St Lawrence} K.
+\newblock {Assessing the severity of perinatal hypoxia-ischemia in piglets
+  using near-infrared spectroscopy to measure the cerebral metabolic rate of
+  oxygen.}
+\newblock Pediatr Res March 2009;\hspace{0pt}65(3):301--6.
+\newblock ISSN 1530-0447.
+
+\bibitem{CostaSantos2006}
+{Costa Santos} C, Bernardes J, Vitanyi PMB, Antunes L.
+\newblock {Clustering Fetal Heart Rate Tracings by Compression}.
+\newblock In Comput. Med. Syst. 2006. CBMS 2006. 19th IEEE Int. Symp.
+\newblock ISSN 1063-7125, 2006;\hspace{0pt} 685--690.
+
+\end{thebibliography}

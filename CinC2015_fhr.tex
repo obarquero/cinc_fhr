@@ -1,0 +1,61 @@
+% This file has been slightly modified from Hans Kestler's original to reflect
+% changes in the CinC style file (cinc.cls), in which the width of the text
+% columns has been slightly reduced.  Accordingly, the size of figure 2 has
+% been reduced so that the entire paper will fit into four pages as in the
+% original. --GBM
+\documentclass[twocolumn]{cinc}
+
+\usepackage{amssymb}    % Written by Donald Arseneau
+\usepackage{amsmath}   % From the American Mathematical Society
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{color}
+%\usepackage{mathtools}\usepackage[english,activeacute]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%\usepackage{hyperref}
+\newcommand{\mfhr}{\ensuremath{\overline{FHR}}}
+\newcommand{\myred}[1]{\textcolor{red}{#1}}  
+\newcommand{\myblue}[1]{\textcolor[rgb]{0,0.14,0.4}{#1}}
+\newcommand{\myorange}[1]{\textcolor[rgb]{1,0.56,0}{#1}}
+\input{Comandos}
+%
+
+\begin{document}
+\bibliographystyle{cinc}
+
+\title{Physiological Feature Analysis in Heart Rate Turbulence Using LASSO Model}
+\author{1}
+
+\maketitle
+
+%%Abstract%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./Abstract/abstract.tex}
+
+%%%Introduction%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{./Introduction/introduction.tex}
+%
+%%%Methods%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./Methods/methods.tex}
+% 
+%%%Results%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./Results/results.tex}
+
+\input{./Conclusions/conclusions.tex}
+\section*{Acknowledgements}
+The author \'Oscar Barquero P\'erez has the support of a FPU Grant (AP2009-1726) from the Ministerio de Educaci\'on, Spanish Government. Authors want to thanks professor Antonio Garc\'ia Marques for his suggestions and thoughtful comments on LASSO models.
+\bibliography{./bib/neonatos-abrv.bib}
+%% 
+\begin{correspondence}
+O Barquero-P\'erez\\
+Department of Signal Theory and Communications\\
+University Rey Juan Carlos. B104, Camino del Molino s/n\\
+28943 - Fuenlabrada (Madrid), Spain\\
+Phone: +34 91 488 84 62\\
+oscar.barquero@urjc.es
+ \end{correspondence}
+
+\end{document}
