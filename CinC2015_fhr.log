@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.3.6)  19 AUG 2015 09:50
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.3.6)  21 AUG 2015 09:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,20 +560,20 @@ Underfull \hbox (badness 2865) in paragraph at lines 8--9
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 
 
-LaTeX Warning: Citation `Leuthner2004' on page 1 undefined on input line 4.
+LaTeX Warning: Citation `Leuthner2004' on page 1 undefined on input line 5.
 
 
-LaTeX Warning: Citation `Morales2011' on page 1 undefined on input line 4.
+LaTeX Warning: Citation `Morales2011' on page 1 undefined on input line 5.
 
 
-LaTeX Warning: Citation `Apgar1953' on page 1 undefined on input line 4.
+LaTeX Warning: Citation `Apgar1953' on page 1 undefined on input line 5.
 
 
 LaTeX Warning: Citation `casey2001continuing' on page 1 undefined on input line
- 4.
+ 5.
 
 
 LaTeX Warning: Citation `Hon1958' on page 1 undefined on input line 7.
@@ -582,32 +582,32 @@ LaTeX Warning: Citation `Hon1958' on page 1 undefined on input line 7.
 LaTeX Warning: Citation `Hammacher1968' on page 1 undefined on input line 7.
 
 
-LaTeX Warning: Citation `Low1999' on page 1 undefined on input line 8.
+LaTeX Warning: Citation `Low1999' on page 1 undefined on input line 7.
 
 
-LaTeX Warning: Citation `Tasnim2009' on page 1 undefined on input line 9.
+LaTeX Warning: Citation `Tasnim2009' on page 1 undefined on input line 7.
 
 
-LaTeX Warning: Citation `Tasnim2009' on page 1 undefined on input line 9.
+LaTeX Warning: Citation `Tasnim2009' on page 1 undefined on input line 7.
 
 
 LaTeX Warning: Citation `Ayres-de-Campos1999' on page 1 undefined on input line
- 9.
+ 7.
 
 
-LaTeX Warning: Citation `Bernardes1997' on page 1 undefined on input line 9.
+LaTeX Warning: Citation `Bernardes1997' on page 1 undefined on input line 7.
 
 
-LaTeX Warning: Citation `Santo2012' on page 1 undefined on input line 9.
+LaTeX Warning: Citation `Santo2012' on page 1 undefined on input line 7.
 
 ) (./Methods/methods.tex
-Underfull \vbox (badness 3657) has occurred while \output is active []
+Underfull \vbox (badness 1546) has occurred while \output is active []
 
  [1{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []$[]$[]\OT1/ptm/m/n/8 Data is avail-able from the web-site:
  []
 
@@ -619,7 +619,7 @@ Package epstopdf Info: Source file: <./figs/caso.eps>
 (epstopdf)                    size: 807420 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/caso-eps-converted-
 to.pdf ./figs/caso.eps>
-(epstopdf)             \includegraphics on input line 42.
+(epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 <./figs/caso-eps-converted-to.pdf, id=10, 520.94624pt x 429.605pt>
 File: ./figs/caso-eps-converted-to.pdf Graphic file (type pdf)
@@ -633,159 +633,114 @@ Package epstopdf Info: Source file: <./figs/control.eps>
 (epstopdf)                    size: 935219 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/control-eps-convert
 ed-to.pdf ./figs/control.eps>
-(epstopdf)             \includegraphics on input line 43.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figs/control-eps-converted-to.pdf, id=11, 519.9425pt x 429.605pt>
 File: ./figs/control-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./figs/control-eps-converted-to.pdf>) (./Results/results.tex [2 <./figs/ca
-so-eps-converted-to.pdf> <./figs/control-eps-converted-to.pdf>]
+<use ./figs/control-eps-converted-to.pdf>
 
-LaTeX Warning: Citation `complearn' on page 3 undefined on input line 26.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-
- []
+LaTeX Warning: Citation `efron1994' on page 2 undefined on input line 50.
 
 
-LaTeX Warning: Reference `subsec:feat:extraction' on page 3 undefined on input 
-line 60.
+LaTeX Warning: Citation `kaplan1999' on page 2 undefined on input line 50.
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+) (./Results/results.tex [2 <./figs/caso-eps-converted-to.pdf> <./figs/control-
+eps-converted-to.pdf>]) (./Conclusions/conclusions.tex
 
- []
-
-
-Overfull \hbox (19.14249pt too wide) in paragraph at lines 82--102
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-
- []
-
-
-Overfull \hbox (23.8431pt too wide) in paragraph at lines 132--153
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `Signorini:2003ee' on page 3 undefined on input line 4.
 
 
 
-LaTeX Warning: Reference `subsec:feat:extraction' on page 4 undefined on input 
-line 166.
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-
- []
+LaTeX Warning: Citation `vanLaar:2009dj' on page 3 undefined on input line 4.
 
 
-Overfull \hbox (81.1823pt too wide) in paragraph at lines 178--202
- [][] 
- []
-
-) (./Conclusions/conclusions.tex
-
-LaTeX Warning: Citation `Signorini:2003ee' on page 5 undefined on input line 4.
+LaTeX Warning: Citation `Pincus1991' on page 3 undefined on input line 8.
 
 
-
-LaTeX Warning: Citation `vanLaar:2009dj' on page 5 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Pincus1991' on page 5 undefined on input line 8.
+LaTeX Warning: Citation `Richman2000' on page 3 undefined on input line 8.
 
 
-LaTeX Warning: Citation `Richman2000' on page 5 undefined on input line 8.
-
-
-LaTeX Warning: Citation `Ayres-de-Campos2010a' on page 5 undefined on input lin
+LaTeX Warning: Citation `Ayres-de-Campos2010a' on page 3 undefined on input lin
 e 11.
 
 
-LaTeX Warning: Citation `RajendraAcharya2006' on page 5 undefined on input line
+LaTeX Warning: Citation `RajendraAcharya2006' on page 3 undefined on input line
  11.
 
-[5]
 
-LaTeX Warning: Citation `Goldberger1987' on page 6 undefined on input line 16.
-
-
-LaTeX Warning: Citation `AMERWAHLIN2001' on page 6 undefined on input line 21.
+LaTeX Warning: Citation `Goldberger1987' on page 3 undefined on input line 16.
 
 
-LaTeX Warning: Citation `Ayres-de-Campos2010' on page 6 undefined on input line
+LaTeX Warning: Citation `AMERWAHLIN2001' on page 3 undefined on input line 21.
+
+
+LaTeX Warning: Citation `Ayres-de-Campos2010' on page 3 undefined on input line
  21.
 
 
-LaTeX Warning: Citation `Warrick2010' on page 6 undefined on input line 21.
+LaTeX Warning: Citation `Warrick2010' on page 3 undefined on input line 21.
 
 
-LaTeX Warning: Citation `Dong2014' on page 6 undefined on input line 21.
+LaTeX Warning: Citation `Dong2014' on page 3 undefined on input line 21.
 
 
-LaTeX Warning: Citation `Yang1998' on page 6 undefined on input line 21.
+LaTeX Warning: Citation `Yang1998' on page 3 undefined on input line 21.
 
 
-LaTeX Warning: Citation `Siristatidis2004' on page 6 undefined on input line 21
+LaTeX Warning: Citation `Siristatidis2004' on page 3 undefined on input line 21
 .
 
 
-LaTeX Warning: Citation `Mori2014' on page 6 undefined on input line 21.
+LaTeX Warning: Citation `Mori2014' on page 3 undefined on input line 21.
 
 
-LaTeX Warning: Citation `Tichauer2009' on page 6 undefined on input line 21.
+LaTeX Warning: Citation `Tichauer2009' on page 3 undefined on input line 21.
 
 
-Underfull \vbox (badness 2302) has occurred while \output is active []
+Underfull \vbox (badness 1178) has occurred while \output is active []
 
+ [3]
 
-
-LaTeX Warning: Citation `CostaSantos2006' on page 6 undefined on input line 23.
+LaTeX Warning: Citation `CostaSantos2006' on page 4 undefined on input line 23.
 
 
 )
-No file CinC2015_fhr.bbl.
-[6] [7
+Underfull \vbox (badness 2302) has occurred while \output is active []
 
-] (./CinC2015_fhr.aux)
+
+No file CinC2015_fhr.bbl.
+[4] (./CinC2015_fhr.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  3213 strings out of 493747
- 40944 string characters out of 3143547
- 104128 words of memory out of 3000000
+ 40941 string characters out of 3143547
+ 100136 words of memory out of 3000000
  6342 multiletter control sequences out of 15000+200000
  45813 words of font info for 131 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,11n,24p,1257b,261s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,24p,1427b,261s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texl
-ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive
-/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
-010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-0/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2010/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2010/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2010/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2010/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on CinC2015_fhr.pdf (7 pages, 1903665 bytes).
+exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
+ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2010
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2010/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2010/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on CinC2015_fhr.pdf (4 pages, 1849830 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

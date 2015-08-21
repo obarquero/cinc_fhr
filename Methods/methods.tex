@@ -1,11 +1,7 @@
 % #############################################
 	\section{Methods} \label{sec:system}
 % #############################################
-
-
-The proposed system consists of several stages, namely: time series segmentation and feature extraction from  FHR signals; similarity calculation with NCD, for which the combination of similarity matrices can provide with further advantage; and choice of a suitable classification algorithm for the final purpose of hypoxia detection. The theoretical basis and design criteria of these stages are described below.
-
-
+In this section we present a briefly definition of the nonlinear indices used to assess complexity using the FHR.
 
 %#############################################################################################
 \subsection{Permutation Entropy}
@@ -32,9 +28,11 @@ Here your code
 % Section data description
 %##########################################################
 \section{Data description}\label{sec:data}
-\myblue{FHR  records\footnote{Data  is available from the website: http://sites.google.com/site/hufahypoxia.} were acquired with a Philips cardiotocograph for a total of 32 recordings, 15 controls and 17 cases. A case was declared whether: 1) the PH of the umbilical artery was $\leq$ 7.05; or 2) the APGAR score was $\leq$ 7 at 5 minutes after delivery  and a reanimation type III or greater was required. The institutional Medical Ethics Review Board approved the use of this data.}
+\myorange{FHR  records\footnote{Data  is available from the website: http://sites.google.com/site/hufahypoxia.} were acquired with a Philips cardiotocograph for a total of 32 recordings, 15 controls and 17 cases. A case was declared whether: 1) the PH of the umbilical artery was $\leq$ 7.05; or 2) the APGAR score was $\leq$ 7 at 5 minutes after delivery  and a reanimation type III or greater was required. The institutional Medical Ethics Review Board approved the use of this data.}
 
-\myblue{Records, see Figure~\ref{fig:RAWFHR} for an example, have considerable variability both in start/ending times and  pauses as labor duration vary. In addition, the cardiotocograph may be disconnected at any time for a number of reasons. Also, the signal is lost sometimes as the fetus and mother move.  The  cardiotocograph provides three signal qualities (lost, medium and high). We decided to consider the window between 4 to 1 hours before birth for our analysis, even though not all patients have signal along all this window, e.g. nine patients even start being monitored after 4 hours to delivery (8 cases) or they are removed the cardiotocograph before  1 hour to delivery (one case). When a patient has no signal in the entire interval analyzed in a experiment, it was excluded (see below).}
+\myorange{Records, see Figure~\ref{fig:RAWFHR} for an example, have considerable variability both in start/ending times and  pauses as labor duration vary. In addition, the cardiotocograph may be disconnected at any time for a number of reasons. Also, the signal is lost sometimes as the fetus and mother move.  The  cardiotocograph provides three signal qualities (lost, medium and high). We decided to consider the window between 4 to 1 hours before birth for our analysis, even though not all patients have signal along all this window, e.g. nine patients even start being monitored after 4 hours to delivery (8 cases) or they are removed the cardiotocograph before 1 hour to delivery (one case). When a patient has no signal in the entire interval analyzed in a experiment, it was excluded (see below).}
+
+\myorange{review the real analysis we performed: which interval we used to compute the indices from fhr. We performed some preprocessing?}
 
 %\textcolor{declared-color}{text}
 \begin{figure}[tp]
@@ -47,5 +45,6 @@ Here your code
 %##########################################################
 % Section data description
 %##########################################################
-
-
+ 
+\section{Statistical analysis}\label{sec:bootstrap}
+To test whether exists statistically significant differences on nonlinear indices between control and cases we performed statistical hypothesis tests based on bootstrap resampling. The null hypothesis ($H_0$) represents no difference between control and cases, against the alternative hypothesis ($H_1$) that there exists significant differences. We used the mean difference between each indices computed on control and cases groups as the statistic to summarize our data. Bootstrap hypothesis test is based on the idea of building an empirical distribution of the statistic, under $H_0$, and then computing the statistic on $B$ different resamplings. Assuming that $H_0$ is true, bootstrap statistics are computed on resamplings from a pooled population (control union cases). We computed p-value as the fraction of the points on the distribution (probability) that are more extreme than the actual statistic value~\cite{efron1994,kaplan1999}.
