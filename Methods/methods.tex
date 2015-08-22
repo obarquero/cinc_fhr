@@ -9,7 +9,22 @@ In this section we present a briefly definition of the nonlinear indices used to
 
 Here your code
 
+\subsection{Sample Entropy}
+Entropy-based methods provide a quantification of the irregularity of a temporal series. Among them, SampEn~\cite{richman00} holds some properties which are appropriate for the study of physiological signals, namely it is robust to noise and outliers, and accordingly, it has been widely applied for characterizing the HRV signal. The SampEn, which is a modification of the Approximate Entropy~\cite{pincus91}, is the negative natural logarithm of the conditional probability that two sequences which are similar for $m$ points remain similar for $m+1$ points. Thus, a lower value of SampEn indicates more self-similarity in the time series~\cite{richman00}. In order to compute SampEn, the embedded dimension $m$, i.e., the length of the vectors to be compared, and the noise filter threshold $r$ need
+to be specified. In this study the values for these parameters are set to $m=2$ and $r=0.2 .$ the standard deviation of the signal, since they are common values used in the literature~\cite{pincus91}.
 
+%The procedure for \emph{SampEn} calculation given $N$ data points is as follows
+%\begin{itemize}
+%	\item  $B_i^m(r)$ is defined as $(N-m-1)^{-1}$ times the number of template vectors $\textbf{x}_m(j)$ similar to $\textbf{x}_m(i)$ (within \emph{r}) where $j=1...N-m$ with $j\neq i$.
+%	\item The average of $B_i^m(r)$ for all $i$ is calculated as
+%	\[ B^m(r) = \frac{1}{N-m}\sum_{i=1}^{N-m} B_i^m(r)\]
+%	\item Similarly $A_i^m(r)$ is defined as $(N-m-1)^{-1}$ times the number of template vectors $\textbf{x}_{m+1}(j)$ similar to $\textbf{x}_{m+1}(i)$ (within \emph{r}) where $j=1...N-m$ with $j\neq i$.
+%	\item The average of $A_i^m(r)$ for all $i$ is calculated as
+%	\[A^m(r) = \frac{1}{N-m}\sum_{i=1}^{N-m} A_i^m(r)\]
+%	\item \emph{SampEn(m,r)}  and its statistic \emph{SampEn(m,r,N)} are defined as follows
+%	\[SampEn(m,r)= \lim_{N \rightarrow \infty} \left\{-\ln\left[A^m(r)/B^m(r)\right]\right\}\]
+%	\[SampEn(m,r,N)= -\ln\left[A^m(r)/B^m(r)\right]\]
+%\end{itemize}
 
 %%##########################################################
 \subsection{Time Irreversibility}
@@ -17,18 +32,11 @@ Here your code
 Here your code
 
 
-%%##########################################################
-\subsection{Test Hypothesis Bootstrap}
-%%##########################################################
-Here your code
-
-
-
 %##########################################################
 % Section data description
 %##########################################################
 \section{Data description}\label{sec:data}
-\myorange{FHR  records\footnote{Data  is available from the website: http://sites.google.com/site/hufahypoxia.} were acquired with a Philips cardiotocograph for a total of 32 recordings, 15 controls and 17 cases. A case was declared whether: 1) the PH of the umbilical artery was $\leq$ 7.05; or 2) the APGAR score was $\leq$ 7 at 5 minutes after delivery  and a reanimation type III or greater was required. The institutional Medical Ethics Review Board approved the use of this data.}
+\myorange{FHR  records\footnote{Data  is available from the website: http://sites.google.com/site/hufahypoxia.} were acquired with a Philips cardiotocograph for a total of 32 recordings, 15 controls and 17 cases in the Hospital Universitario Fundaci\'on Alcorc\'on (Madrid, Spain). A case was declared whether: 1) the PH of the umbilical artery was $\leq$ 7.05; or 2) the APGAR score was $\leq$ 7 at 5 minutes after delivery  and a reanimation type III or greater was required. The institutional Medical Ethics Review Board approved the use of this data.}
 
 \myorange{Records, see Figure~\ref{fig:RAWFHR} for an example, have considerable variability both in start/ending times and  pauses as labor duration vary. In addition, the cardiotocograph may be disconnected at any time for a number of reasons. Also, the signal is lost sometimes as the fetus and mother move.  The  cardiotocograph provides three signal qualities (lost, medium and high). We decided to consider the window between 4 to 1 hours before birth for our analysis, even though not all patients have signal along all this window, e.g. nine patients even start being monitored after 4 hours to delivery (8 cases) or they are removed the cardiotocograph before 1 hour to delivery (one case). When a patient has no signal in the entire interval analyzed in a experiment, it was excluded (see below).}
 
